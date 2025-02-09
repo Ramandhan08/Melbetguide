@@ -1,0 +1,141 @@
+/* Reset & Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body Background */
+body {
+  background-color: #1b1b1b;
+  color: white;
+  text-align: center;
+}
+
+/* Header & Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #ff9900, #ff3300);
+  padding: 15px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.logo-text {
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.mel {
+  color: #fff;
+}
+
+.bet {
+  color: yellow;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: yellow;
+}
+
+/* Welcome Section */
+.welcome {
+  padding: 40px;
+}
+
+.welcome h1 {
+  font-size: 32px;
+  color: yellow;
+}
+
+.welcome p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Image Styling */
+.image-placeholder img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.small-video {
+  width: 300px;
+  height: auto;
+}
+.large-video {
+  width: 600px;
+  height: auto;
+}
+/* Download Button */
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.small-video {
+  width: 300px;
+  height: auto;
+}
+.large-video {
+  width: 600px;
+  height: auto;
+}
+
+/* Video Section */
+.video-container {
+  padding: 30px;
+}
+
+.video-container h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: yellow;
+}
